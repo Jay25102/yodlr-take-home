@@ -11,7 +11,7 @@
     "cors": "^2.8.4",
     "debug": "^2.6.9",
     "express": "^4.19.2",
-    "express-winston": "^4.2.0",
+    "express-winston": "^0.2.9",
     "lodash": "^4.17.21",
     "serve-favicon": "^2.5.0",
     "winston": "^0.8.3"
