@@ -3,15 +3,30 @@
 <head>
   <meta charset=utf-8>
   <title>Yodlr Registration Portal</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 <body>
   <h1>Yodlr Registration Portal</h1>
-  <form>
-    Email: <input type="email" name="email"></br>
-    <button type="submit">Submit</button>
+  <form class="registrationForm">
+    <div>
+      <label for="email">email: </label>
+      <input class="emailInput" type="email" name="email" required>
+    </div>
+    <div>
+      <label for="firstName">First Name: </label>
+      <input class="firstNameInput" type="text" name="firstName" required>
+    </div>
+    <div>
+      <label for="lastName">Last Name: </label>
+      <input class="lastNameInput" type="text" name="lastName" required>
+    </div>
+    <button class="submitBtn" type="submit">Submit</button>
   </form>
   <p>
     <a href="/admin.html">Admin Page</a>
   </p>
 </body>
+<footer>
+  <script src="./js/signup.js"></script>
+</footer>
 </html>

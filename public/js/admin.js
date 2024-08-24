@@ -25,7 +25,7 @@ function generateUserTable(userData) {
         let $newTr = $("<tr>");
         $newTable.append($newTr);
         $newTr.append($("<th>").text(user.id))
-            .append($("<th>").text(user.firstName + user.lastName))
+            .append($("<th>").text(`${user.firstName} ${user.lastName}`))
             .append($("<th>").text(user.email))
             .append($("<th>").text(user.state));
     }
